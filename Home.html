@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><div class="background">
+    <div class="overlay">
+        <div class="citysearchcontainer">
+            <input type="text" id="city-input" placeholder="Enter City" class="cityinput">
+            <button id="search-btn">Get Weather</button>
+        </div>
+        <div class="weathercontainer">
+            <div class="weathercard">
+                <div class="weatherheader">
+                    <p id="city" class="city">City</p>
+                    <p id="temperature" class="temperature"></p>
+                    <p id="condition" class="weathercondition"></p>
+                </div>
+                <div class="weatherdetail">
+                    <div class="detail">
+                        <p class="label">Humidity</p>
+                        <p id="humidity" class="value"></p>
+                    </div>
+                    <div class="detail">
+                        <p class="label">Wind Speed</p>
+                        <p id="wind-speed" class="value"></p>
+                    </div>
+                    <div class="detail">
+                        <p class="label">Precipitation</p>
+                        <p id="precipitation" class="value"></p>
+                    </div>
+                </div>
+                <div class="footer">
+                    <p>Coded with ❤ By Shreya Gosavi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
